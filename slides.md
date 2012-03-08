@@ -46,10 +46,6 @@
 
 }}} images/retailstore.jpg
 
-!SLIDE 
-
-}}} images/mashup.png
-
 !SLIDE left
 
 ## Large scale integration
@@ -82,11 +78,6 @@
 ![Retail Store](images/retail_store_build.png "Retail Store")
 
 
-!SLIDE
-
-![Refactored](images/retail_store_refactored.png "Refactored")
-
-
 
 !SLIDE left
 
@@ -110,6 +101,11 @@
 ### Integration points are identified by selenium tags
 
 ### Long running tests are run once a day 
+
+!SLIDE
+
+![Refactored](images/retail_store_refactored.png "Refactored")
+
 
 !SLIDE left
 
@@ -135,7 +131,12 @@
 
 ### Lacked awareness of complete application 
 
-### Team did not know what is broken 
+### Team did not know what is broken
+
+!SLIDE
+
+}}} images/cc_monitor_example.png
+ 
 
 !NOTES
 
@@ -145,6 +146,8 @@
 
 ### Need something that is always on and in the team's face to indicate system state.
 
+!SLIDE left
+
 ### Feedback helped the key stake holders
 
 ### Forced redesign - balance maintenance with velocity
@@ -153,9 +156,6 @@
 
 ### Retired old applications - or handover
 
-!SLIDE
-
-}}} images/cc_monitor_example.png
 
 !SLIDE
 
@@ -228,7 +228,7 @@
 
 ### Amazon cloud EC2 is cost effective for short term usage
 
-### <strong> Don't ignore the learning curve </strong>
+### <em> Don't ignore the learning curve </em>
 
 ### Security restrictions make it hard to deploy 
 
@@ -244,11 +244,11 @@
 
 ## Lessons learnt
 
-### Continuous Integration concepts <strong>translate</strong> across different technologies
+### Continuous Integration concepts <em>translate</em> across different technologies
 
-### Identifying feedback loops in CI that fit the context leads to <strong>faster corrective action</strong>
+### Identifying feedback loops in CI that fit the context leads to <em>faster corrective action</em>
 
-### Resource management is <strong>not trivial</strong>
+### Resource management is <em>not trivial</em>
 
 !SLIDE
 
