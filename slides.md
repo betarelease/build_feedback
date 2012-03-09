@@ -226,7 +226,7 @@
 
 ## Cloud for testing
 
-### Amazon seems cheap ... 0.15c
+### Amazon cloud EC2 is cost effective for short term usage
 
 ### <strong> Don't ignore the learning curve </strong>
 
