@@ -2,7 +2,6 @@
 
 !SLIDE
 
-
 # Better Builds : Faster Feedback
 
 ## @sudhindraRao
