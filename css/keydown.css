@@ -106,8 +106,6 @@ body {
       box-pack: start; }
       .keydown.deck-container .slide.full-background.retailstore {
         background-image: url(../images/retailstore.jpg); }
-      .keydown.deck-container .slide.full-background.mashup {
-        background-image: url(../images/mashup.png); }
       .keydown.deck-container .slide.full-background.data-center {
         background-image: url(../images/data-center.jpg); }
       .keydown.deck-container .slide.full-background.cc_monitor_example {

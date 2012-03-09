@@ -22,7 +22,7 @@
 
 ## CI Tools
 
-### CruiseControl - java, .NET, ruby
+### CruiseControl - Java, .NET, ruby
 
 ### Hudson - was open source, free to use - now Oracle
 
@@ -39,16 +39,11 @@
 
 ### should provide different levels of reporting
 
-
 !SLIDE 
 
 # Someone somewhere broke my code ... maybe
 
 }}} images/retailstore.jpg
-
-!SLIDE 
-
-}}} images/mashup.png
 
 !SLIDE left
 
@@ -78,15 +73,7 @@
 ### Delivery pressure is a distraction to quality
 
 !SLIDE
-
-![Retail Store](images/retail_store_build.png "Retail Store")
-
-
-!SLIDE
-
-![Refactored](images/retail_store_refactored.png "Refactored")
-
-
+![Retail Store](images/retail_store_build.jpg "Retail Store")
 
 !SLIDE left
 
@@ -110,6 +97,20 @@
 ### Integration points are identified by selenium tags
 
 ### Long running tests are run once a day 
+
+!SLIDE
+
+![Refactored](images/retail_store_refactored.jpg "Refactored")
+
+!SLIDE left
+
+## Results
+
+### Better visibility of builds
+
+### Confidence to check-in code
+
+### Reliable Delivery
 
 !SLIDE left
 
@@ -135,7 +136,11 @@
 
 ### Lacked awareness of complete application 
 
-### Team did not know what is broken 
+### Team did not know what is broken
+
+!SLIDE
+
+}}} images/cc_monitor_example.png
 
 !NOTES
 
@@ -145,17 +150,17 @@
 
 ### Need something that is always on and in the team's face to indicate system state.
 
+!SLIDE left
+
+## Results
+
 ### Feedback helped the key stake holders
 
 ### Forced redesign - balance maintenance with velocity
 
-### Applications that were small, or could not function on their own without integration were merged into their parents.
+### Dependent applications were merged
 
-### Retired old applications - or handover
-
-!SLIDE
-
-}}} images/cc_monitor_example.png
+### Retired old applications
 
 !SLIDE
 
@@ -187,6 +192,12 @@
 
 ### Establish a work etiquette for builds and continuous integration.
 
+!SLIDE
+
+## Canary in the coalmine
+
+![Canary](images/health_care.jpg "Canary")
+
 !SLIDE left
 
 ### Time to add a smoke test suite
@@ -195,15 +206,19 @@
 
 ### Time to split test suite by responsibility and application area
 
+!SLIDE left
+
+## Results
+
+### Delivery every month
+
+### Deployment during the day - Non-event
+
+### Multiple streams of development
+
 !NOTES
 
 ### It was tolerable for a week or two with ~5 min build. But with the testing team getting more conversant with the Application and writing more tests/deeper tests, the build time started growing rapidly. 
-
-!SLIDE 
-
-## Canary in the coalmine
-
-![Canary](images/canary.png "Canary")
 
 !SLIDE left
 
@@ -221,14 +236,13 @@
 
 ### Go, Jenkins Agents
 
-
 !SLIDE left
 
 ## Cloud for testing
 
 ### Amazon cloud EC2 is cost effective for short term usage
 
-### <strong> Don't ignore the learning curve </strong>
+### <em> Don't ignore the learning curve </em>
 
 ### Security restrictions make it hard to deploy 
 
@@ -244,11 +258,11 @@
 
 ## Lessons learnt
 
-### Continuous Integration concepts <strong>translate</strong> across different technologies
+### Continuous Integration concepts <em>translate</em> across different technologies
 
-### Identifying feedback loops in CI that fit the context leads to <strong>faster corrective action</strong>
+### Identifying feedback loops in CI that fit the context leads to <em>faster corrective action</em>
 
-### Resource management is <strong>not trivial</strong>
+### Resource management is <em>not trivial</em>
 
 !SLIDE
 
