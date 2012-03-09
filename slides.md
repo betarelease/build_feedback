@@ -2,7 +2,6 @@
 
 !SLIDE
 
-
 # Better Builds : Faster Feedback
 
 ## @sudhindraRao
@@ -196,7 +195,7 @@
 
 ## Canary in the coalmine
 
-![Canary](images/health_care.jpg "Canary")
+![Canary](images/health_care_build.jpg "Canary")
 
 !SLIDE left
 
