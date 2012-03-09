@@ -22,7 +22,7 @@
 
 ## CI Tools
 
-### CruiseControl - java, .NET, ruby
+### CruiseControl - Java, .NET, ruby
 
 ### Hudson - was open source, free to use - now Oracle
 
@@ -38,7 +38,6 @@
 ### should allow custom build jobs
 
 ### should provide different levels of reporting
-
 
 !SLIDE 
 
@@ -74,10 +73,7 @@
 ### Delivery pressure is a distraction to quality
 
 !SLIDE
-
-![Retail Store](images/retail_store_build.png "Retail Store")
-
-
+![Retail Store](images/retail_store_build.jpg "Retail Store")
 
 !SLIDE left
 
@@ -104,8 +100,17 @@
 
 !SLIDE
 
-![Refactored](images/retail_store_refactored.png "Refactored")
+![Refactored](images/retail_store_refactored.jpg "Refactored")
 
+!SLIDE left
+
+## Results
+
+### Better visibility of builds
+
+### Confidence to check-in code
+
+### Reliable Delivery
 
 !SLIDE left
 
@@ -136,7 +141,6 @@
 !SLIDE
 
 }}} images/cc_monitor_example.png
- 
 
 !NOTES
 
@@ -148,14 +152,15 @@
 
 !SLIDE left
 
+## Results
+
 ### Feedback helped the key stake holders
 
 ### Forced redesign - balance maintenance with velocity
 
-### Applications that were small, or could not function on their own without integration were merged into their parents.
+### Dependent applications were merged
 
-### Retired old applications - or handover
-
+### Retired old applications
 
 !SLIDE
 
@@ -187,6 +192,12 @@
 
 ### Establish a work etiquette for builds and continuous integration.
 
+!SLIDE
+
+## Canary in the coalmine
+
+![Canary](images/health_care.jpg "Canary")
+
 !SLIDE left
 
 ### Time to add a smoke test suite
@@ -195,15 +206,19 @@
 
 ### Time to split test suite by responsibility and application area
 
+!SLIDE left
+
+## Results
+
+### Delivery every month
+
+### Deployment during the day - Non-event
+
+### Multiple streams of development
+
 !NOTES
 
 ### It was tolerable for a week or two with ~5 min build. But with the testing team getting more conversant with the Application and writing more tests/deeper tests, the build time started growing rapidly. 
-
-!SLIDE 
-
-## Canary in the coalmine
-
-![Canary](images/canary.png "Canary")
 
 !SLIDE left
 
@@ -220,7 +235,6 @@
 ### Spork, Parallel Tests, Selenium Grid
 
 ### Go, Jenkins Agents
-
 
 !SLIDE left
 
