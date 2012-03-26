@@ -1,4 +1,11 @@
 # Better Builds : Faster Feedback
+!SLIDE left
+
+# This is a deck.js presentation. Press 's' to scale slides.
+
+
+## Best viewed in Chrome
+
 
 !SLIDE
 
@@ -27,7 +34,7 @@
 
 ### Jenkins - fork of Hudson - free
 
-### Configurable
+### <em>Configurable</em>
 
 
 !NOTES
@@ -52,9 +59,9 @@
 
 ### Failing builds because other teams are not testing - <em>yet</em>
 
-### Delivery rush causes everyone to ignore other builds
+### Delivery rush
 
-### Selenium builds took hours so were ignored
+### Selenium builds took hours
 
 !NOTES
 
@@ -67,7 +74,7 @@
 
 ### Tests are flaky
 
-### Too many things printed on the report
+### Too many reports - too much data
 
 ### Delivery pressure is a distraction to quality
 
@@ -80,12 +87,16 @@
 
 ### Make smoke tests as part of the basic build
 
-### Distribute responsibility to the integrating parties
+### Distribute responsibility to the integrating teams
 
 !NOTES
 
 ### If they can't fix them atleast they can tell you what change caused them to break
 
+
+!SLIDE
+
+![Refactored](images/retail_store_refactored.jpg "Refactored")
 
 !SLIDE left
 
@@ -96,10 +107,6 @@
 ### Integration points are identified by selenium tags
 
 ### Long running tests are run once a day 
-
-!SLIDE
-
-![Refactored](images/retail_store_refactored.jpg "Refactored")
 
 !SLIDE left
 
@@ -129,7 +136,7 @@
 
 !SLIDE left
 
-### In the beginning there were <em>28</em> apps and <em>37</em> builds(including integration builds)
+### In the beginning there were <em>28</em> apps and <em>37</em> builds
 
 ### Usually the team worked on 1-2 related apps at a time. 
 
@@ -189,13 +196,7 @@
 
 ### As the coverage started increasing the build time started growing
 
-### Establish a work etiquette for builds and continuous integration.
-
-!SLIDE
-
-## Canary in the coalmine
-
-![Canary](images/health_care_build.jpg "Canary")
+### Establish a work etiquette for continuous integration.
 
 !SLIDE left
 
@@ -204,6 +205,13 @@
 ### Time to add an acceptance test suite
 
 ### Time to split test suite by responsibility and application area
+
+!SLIDE
+
+## Canary in the coalmine
+
+![Canary](images/health_care_build.jpg "Canary")
+
 
 !SLIDE left
 
